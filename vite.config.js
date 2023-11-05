@@ -8,7 +8,7 @@ dns.setDefaultResultOrder('verbatim')
 export default defineConfig({
     plugins: [react()],
     server: {
-        host: "54.206.75.221",
+        host: "192.168.1.22",
         port: "8080",
     },
 }); 
